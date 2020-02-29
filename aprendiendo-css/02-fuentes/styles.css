@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf)
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
+
+h1 {
+    font-family: Roboto;
+    font-size: 4em;
+    font-style: italic;
+    font-weight: 900;
+    color: mediumpurple;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(202, 202, 47, 0.5);
+}
+
+p {
+    font-family: Montserrat, Spartan;
+    line-height: 23px;
+}

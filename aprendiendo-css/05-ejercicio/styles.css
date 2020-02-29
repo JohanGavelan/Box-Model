@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#general {
+    width: 1200px;
+    margin: 20px auto;
+    border: 1px solid #cccccc;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(69, 69, 228);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 90px;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu {
+    background-color: #eeeeee;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    border-right: 1px solid #cccccc;   
+}
+
+#menu li:hover {
+    background-color: rgb(127, 248, 7);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#menu a {
+    display: block;
+    color: rgb(69, 69, 228);
+    padding: 15px;
+}
+
+#menu a:hover {
+    color: black;
+}
+
+#menu li:hover a {
+    color: black;
+}
+
+#clearfix {
+    float: none;
+    clear: both;
+}
+
+#contenido {
+    width: 69%;
+    float: left;
+}
+
+#lateral {
+    width: 30%;
+    border: 1px solid brown;
+    float: left;
+    min-height: 500px;
+    text-align: center;
+}
+
+#contenido .caja {
+    width: 40%;
+    height: 250px;
+    background-color: coral;
+    border: 5px solid steelblue;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 43px;
+}
+
+#contenido h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #eeeeee;
+    text-align: center;
+    color: #444444;
+}

@@ -1,0 +1,65 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+
+}
+
+footer p {
+    color: orange;
+}
+
+#descripción {
+    border: 1px solid black;
+    padding: 0 15px;
+}
+
+#usuario form {
+    border: 5px solid blue;
+    margin: 15px 0px;
+    padding: 20px;
+}
+
+#usuario form * {
+    display: block;
+}
+
+input[type="text"] {
+    margin: 15px 0;
+    width: 230px;
+}
+
+input[type="submit"] {
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#menu > ul > li > a {
+    color: red;
+}
+
+#saludo h1 {
+    background: brown !important;
+}
+
+h1 {
+    background: purple !important;
+}
