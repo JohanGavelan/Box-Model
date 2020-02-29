@@ -20,6 +20,10 @@ header {
     line-height: 90px;
 }
 
+h2 {
+    margin-top: 20px;
+}
+
 ul {
     list-style: none;
 }
